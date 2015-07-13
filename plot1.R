@@ -1,4 +1,3 @@
-## file household_power_consumption.txt must be in your working directory 
 Sys.setlocale("LC_TIME", "English")
 fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
 download.file(fileUrl, destfile = "./exdata_data_household_power_consumption.zip", method = "curl")
